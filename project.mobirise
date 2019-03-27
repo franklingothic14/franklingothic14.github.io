@@ -1,55 +1,44 @@
 {
   "settings": {
-    "name": "Site-03-17_0216",
-    "currentPage": "index.html",
+    "name": "Magic of nature",
+    "currentPage": "order.html",
     "theme": {
-      "name": "mobirise-amp",
-      "title": "Mobirise AMP",
+      "name": "mobirise3",
+      "title": "Mobirise3",
       "styling": {
-        "primaryColor": "#232323",
-        "secondaryColor": "#ffffff",
-        "successColor": "#eaeaea",
-        "infoColor": "#767676",
-        "warningColor": "#494949",
-        "dangerColor": "#232323",
-        "mainFont": "Roboto",
-        "display1Font": "Roboto",
-        "display1Size": 4.5,
-        "display2Font": "Roboto",
-        "display2Size": 2.2,
-        "display5Font": "Roboto",
-        "display5Size": 1.8,
-        "display7Font": "Roboto",
-        "display7Size": 1.1,
-        "display4Font": "Roboto",
-        "display4Size": 0.9,
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
         "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
         "isScrollToTopButton": false,
-        "arrowColor": "#4ea2e3"
+        "isRtl": false
       },
-      "additionalSetColors": [
-        "#b4815d"
-      ]
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
-    "versionFirst": "4.9.4",
+    "versionFirst": "4.9.6",
     "siteFonts": [],
     "favicon": "",
     "noImageResize": "",
+    "siteUrl": "undefined",
     "google-analytics": "",
     "cookiesAlert": "",
     "gdpr": "",
-    "siteUrl": "undefined",
-    "сanonical-url": "",
-    "uniqCompNum": 5,
-    "versionPublish": "4.9.4",
-    "screenshot": "screenshot.png"
+    "uniqCompNum": 26,
+    "versionPublish": "4.9.6"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home",
+        "title": "Magic of nature",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -57,181 +46,568 @@
       },
       "components": [
         {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1309.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-title B": {
-              "color": "#ffffff"
-            }
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.2"
           },
+          "title": "MAGIC OF NATURE",
+          "text": "Натуральная косметика&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_tags": [
+            "Theme"
+          ],
           "_name": "header1",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n            <b>Varnishop</b></h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\">\n            Accelerate your site with AMP\n        </h3>\n        <p class=\"mbr-fonts-style mbr-text align-right\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            Full width intro with adjustable height, background image. Click any text to edit or style it.\n        </p>\n        <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"tel:+380971114311\" data-app-placeholder=\"Type Text\">Позвонить</a></div>\n    </div>\n\n</section>",
-          "_cid": "rkVTnmwzHV",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "header1-1"
+          "_anchor": "header1-3"
         },
         {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2019 Magic of nature",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-k"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".ampTabContainer": {
-              "display": "flex",
-              "-webkit-flex-wrap": "wrap",
-              "flex-wrap": "wrap"
-            },
-            ".tab-button[selected]": {
-              "outline": "none",
-              "background": "@activeColor"
-            },
-            ".tab-button": {
-              "list-style": "none",
-              "-webkit-flex-grow": "1",
-              "flex-grow": "1",
-              "text-align": "center",
-              "cursor": "pointer"
-            },
-            ".tab-content": {
-              "display": "none",
-              "width": "100%",
-              "order": "1",
-              "border": "1px solid @activeColor",
-              "padding": "2rem 3rem 3rem",
-              "background": "@activeColor",
-              "p": {
-                "margin": "0",
-                "& when (@showTitle)": {
-                  "padding": "2rem 0 0"
-                },
-                "& when not (@showTitle)": {
-                  "padding": "0"
-                }
-              }
-            },
-            ".tab-button[selected] + .tab-content": {
-              "display": "block"
-            },
-            ".tab-head": {
-              "margin": "1rem"
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
-          "_name": "tab1",
-          "_customHTML": "<section class=\"mbr-section tab1\" group=\"Toggles & Tabs\" plugins=\"amp-main, amp-selector\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" name=\"activeColor\" value=\"#b4815d\">\n        <select name=\"tabsAmount\" title=\"Tabs Amount\">\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <amp-selector role=\"tablist\" layout=\"container\" class=\"ampTabContainer\">\n            <div role=\"tab\" class=\"tab-button\" selected option=\"a\">\n                <h3 class=\"tab-head mbr-fonts-style mbr-white mbr-light\" mbr-theme-style=\"display-2\">Performance</h3>\n            </div>\n            <div role=\"tabpanel\" class=\"tab-content\">\n                <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                    HIGHER PERFORMANCE\n                </h2>\n                <p class=\"mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, pariatur omnis odit, molestias inventore beatae adipisci fugiat fugit itaque minus explicabo iure deserunt corporis minima vitae dicta et libero sit.</span><span>Nihil cumque aspernatur nam fugiat iusto error, distinctio, dolorum explicabo nobis. Voluptatem dolores, laudantium qui aspernatur recusandae velit, molestiae facilis harum itaque quisquam! Porro dolorem, pariatur rerum ullam dolores non?</span></p>\n            </div>\n\n            <div role=\"tab\" class=\"tab-button\" option=\"b\">\n                <h3 class=\"tab-head mbr-fonts-style mbr-white mbr-light\" mbr-theme-style=\"display-2\">Engagements</h3>\n            </div>\n            <div role=\"tabpanel\" class=\"tab-content\">\n                <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                    EFFECTIVE ENGAGEMENT\n                </h2>\n                <p class=\"mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, pariatur omnis odit, molestias inventore beatae adipisci fugiat fugit itaque minus explicabo iure deserunt corporis minima vitae dicta et libero sit.</span><span>Nihil cumque aspernatur nam fugiat iusto error, distinctio, dolorum explicabo nobis. Voluptatem dolores, laudantium qui aspernatur recusandae velit, molestiae facilis harum itaque quisquam! Porro dolorem, pariatur rerum ullam dolores non?</span>.</p>         \n            </div>\n            <div role=\"tab\" class=\"tab-button\" option=\"c\" mbr-if=\"tabsAmount > 2\">\n                <h3 class=\"tab-head mbr-fonts-style mbr-white mbr-light\" mbr-theme-style=\"display-2\">Flexibility</h3>\n            </div>\n            <div role=\"tabpanel\" class=\"tab-content\" mbr-if=\"tabsAmount > 2\">\n                <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">EXCELLENT FLEXIBILITY</h2>\n                <p class=\"mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, pariatur omnis odit, molestias inventore beatae adipisci fugiat fugit itaque minus explicabo iure deserunt corporis minima vitae dicta et libero sit.</span><span>Nihil cumque aspernatur nam fugiat iusto error, distinctio, dolorum explicabo nobis. Voluptatem dolores, laudantium qui aspernatur recusandae velit, molestiae facilis harum itaque quisquam! Porro dolorem, pariatur rerum ullam dolores non?</span></p>\n            </div>\n            <div role=\"tab\" class=\"tab-button\" option=\"d\" mbr-if=\"tabsAmount > 3\">\n                <h3 class=\"tab-head mbr-fonts-style mbr-white mbr-light\" mbr-theme-style=\"display-2\">Performance</h3>\n            </div>\n            <div role=\"tabpanel\" class=\"tab-content\" mbr-if=\"tabsAmount > 3\">\n                <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                    EFFECTIVE ENGAGEMENT\n                </h2>\n                <p class=\"mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, pariatur omnis odit, molestias inventore beatae adipisci fugiat fugit itaque minus explicabo iure deserunt corporis minima vitae dicta et libero sit.</span><span>Nihil cumque aspernatur nam fugiat iusto error, distinctio, dolorum explicabo nobis. Voluptatem dolores, laudantium qui aspernatur recusandae velit, molestiae facilis harum itaque quisquam! Porro dolorem, pariatur rerum ullam dolores non?</span></p>\n            </div>\n            <div role=\"tab\" class=\"tab-button\" option=\"e\" mbr-if=\"tabsAmount > 4\">\n                <h3 class=\"tab-head mbr-fonts-style mbr-white mbr-light\" mbr-theme-style=\"display-2\">Engagements</h3>\n            </div>\n            <div role=\"tabpanel\" class=\"tab-content\" mbr-if=\"tabsAmount > 4\">\n                <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                    EFFECTIVE ENGAGEMENT\n                </h2>\n                <p class=\"mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, pariatur omnis odit, molestias inventore beatae adipisci fugiat fugit itaque minus explicabo iure deserunt corporis minima vitae dicta et libero sit.</span><span>Nihil cumque aspernatur nam fugiat iusto error, distinctio, dolorum explicabo nobis. Voluptatem dolores, laudantium qui aspernatur recusandae velit, molestiae facilis harum itaque quisquam! Porro dolorem, pariatur rerum ullam dolores non?</span></p>\n            </div>\n            <div role=\"tab\" class=\"tab-button\" option=\"f\" mbr-if=\"tabsAmount > 5\">\n                <h3 class=\"tab-head mbr-fonts-style mbr-white mbr-light\" mbr-theme-style=\"display-2\">Engagements</h3>\n            </div>\n            <div role=\"tabpanel\" class=\"tab-content\" mbr-if=\"tabsAmount > 5\">\n                <h2 class=\"mbr-section-title mbr-fonts-style align-center mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n                    EFFECTIVE ENGAGEMENT\n                </h2>\n                <p class=\"mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, pariatur omnis odit, molestias inventore beatae adipisci fugiat fugit itaque minus explicabo iure deserunt corporis minima vitae dicta et libero sit.</span><span>Nihil cumque aspernatur nam fugiat iusto error, distinctio, dolorum explicabo nobis. Voluptatem dolores, laudantium qui aspernatur recusandae velit, molestiae facilis harum itaque quisquam! Porro dolorem, pariatur rerum ullam dolores non?</span></p>\n            </div>\n        </amp-selector>\n    </div>\n\n</section>",
-          "_cid": "rkVTyRDeXM",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "tab1-4"
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-3-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-2-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-4-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Крем для рук",
+          "subtitle1": "уточнение",
+          "caption1": "Короткое описание",
+          "title2": "Гидрофильное масло",
+          "subtitle2": "уточнение",
+          "caption2": "Короткое описание",
+          "title3": "Гель алое-вера",
+          "subtitle3": "уточнение",
+          "caption3": "Короткое описание",
+          "title4": "Unlimited Sites",
+          "subtitle4": "уточнение",
+          "caption4": "Короткое описание",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"order.html\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"order.html\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"order.html\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"order.html\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-n"
         },
         {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-3-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-2-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-4-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Крем для рук",
+          "subtitle1": "уточнение",
+          "caption1": "Короткое описание",
+          "title2": "Гидрофильное масло",
+          "subtitle2": "уточнение",
+          "caption2": "Короткое описание",
+          "title3": "Гель алое-вера",
+          "subtitle3": "уточнение",
+          "caption3": "Короткое описание",
+          "title4": "Unlimited Sites",
+          "subtitle4": "уточнение",
+          "caption4": "Короткое описание",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"order.html\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"order.html\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"order.html\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"order.html\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-p"
+        },
+        {
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-3-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-2-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/mbr-4-600x400.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title1": "Крем для рук",
+          "subtitle1": "уточнение",
+          "caption1": "Короткое описание",
+          "title2": "Гидрофильное масло",
+          "subtitle2": "уточнение",
+          "caption2": "Короткое описание",
+          "title3": "Гель алое-вера",
+          "subtitle3": "уточнение",
+          "caption3": "Короткое описание",
+          "title4": "Unlimited Sites",
+          "subtitle4": "уточнение",
+          "caption4": "Короткое описание",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button1": "<a data-app-btn=\"true\" href=\"order.html\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"order.html\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"order.html\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"order.html\" class=\"btn btn-success\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features3",
+          "_anchor": "features3-o"
+        }
+      ]
+    },
+    "order.html": {
+      "settings": {
+        "meta_descr": "Web Site Builder Description",
+        "title": "order",
+        "order": 1
+      },
+      "components": [
+        {
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
             },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
+            ".navbar-caption": {
+              "color": "#ffffff"
             },
-            ".main-row when (@showSubtitle), (@showTitle)": {
-              "padding-top": "2rem"
+            ".navbar-toggler": {
+              "color": "#ffffff"
             },
-            ".mbr-section-btn": {
-              "margin": "0.5rem"
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
             },
-            ".mbr-section-btn > *, textarea, input": {
-              "margin": "0"
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
             },
-            ".mbr-form": {
-              "margin-left": "-0.5rem",
-              "margin-right": "-0.5rem"
+            ".link": {
+              "font-size": "0.75rem"
             },
-            ".mbr-row when (@showSubtitle), (@showTitle)": {
-              "margin-top": "2rem"
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
             },
-            "textarea, input, .area": {
-              "width": "100%"
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
             },
-            ".area, .split-row": {
-              "padding": "0.5rem"
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
             },
-            ".fieldset": {
-              "@media (min-width: 768px)": {
-                "display": "flex",
-                "-webkit-flex-wrap": "wrap",
-                "flex-wrap": "wrap",
-                ".split-row": {
-                  "flex": "1 1 30%"
-                }
-              }
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
             },
-            "input, textarea": {
-              "color": "@labelsColor !important",
-              "border": "1px solid @borderColor",
-              "&:hover, &:focus": {
-                "border-color": "@primaryColor"
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#ffffff",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\">НА ГЛАВНУЮ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"tel:0986547747\">ПОЗВОНИТЬ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-success\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MAGIC OF NATURE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-h"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "labelsColor": "#ffffff",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Заказать",
+          "subtitle": "какое-то описание",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-success\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Сделать заказ</a>",
+          "form": {
+            "action": "timesnewroman14@gmail.com",
+            "alerts": {
+              "success": "Спасибо, мы с Вами свяжемся в ближайшее время!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Ваше имя*"
               },
-              "background": "@inputColor"
-            },
-            "input::-webkit-input-placeholder": {
-              "color": "fade(@labelsColor, 50%)"
-            },
-            "input::-moz-placeholder": {
-              "color": "fade(@labelsColor, 50%)"
-            },
-            "textarea::-webkit-input-placeholder": {
-              "color": "fade(@labelsColor, 50%)"
-            },
-            "textarea::-moz-placeholder": {
-              "color": "fade(@labelsColor, 50%)"
-            },
-            "& when (@showImg)": {
-              "@media (min-width: 992px)": {
-                ".main-row when (@reverseContent)": {
-                  "flex-direction": "row-reverse",
-                  ".img-content": {
-                    "padding-left": "2rem"
-                  }
-                },
-                ".img-content when not (@reverseContent)": {
-                  "padding-right": "2rem"
-                }
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Почта*"
               },
-              "@media (max-width: 991px)": {
-                ".form-content": {
-                  "padding-top": "2rem"
-                }
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Телефон"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Что хотите заказать"
               }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#ffffff"
             },
-            "H2": {
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            "SMALL": {
               "color": "#ffffff"
             }
           },
-          "_name": "contacts6",
-          "_customHTML": "<section class=\"contacts6\" group=\"Contacts\" plugins=\"amp-main,amp-form,amp-mustache\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        \n        <input type=\"checkbox\" title=\"Show Image\" name=\"showImg\" checked=\"\">\n        \n        <input type=\"color\" title=\"Fields Color\" name=\"inputColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Border Color\" name=\"borderColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Form Text Color\" name=\"labelsColor\" value=\"#000000\">\n        \n        <input type=\"checkbox\" title=\"Map on Left/Right\" name=\"reverseContent\" condition=\"showImg\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg\" selected=\"\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\"> \n        </fieldset>\n        <input type=\"map\" title=\"Map\" name=\"googleMap\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h2 mbr-if=\"showTitle\" class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\">Оставить заказ</h2>\n        <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n            Find Us Or Contact Us\n        </h3>\n\n        <div class=\"mbr-row mbr-justify-content-center main-row\">\n            <div class=\"mbr-col-md-12 mbr-col-sm-12 mbr-col-lg-6 img-content\" mbr-if=\"showImg\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg\" alt=\"Mobirise\" width=\"523.5\" height=\"349\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg\" alt=\"Mobirise\" title=\"\">\n                </amp-img>\n            </div>\n            \n            \n            <div class=\"mbr-col-md-12 mbr-col-sm-12 form-content\" mbr-class=\"{'mbr-col-lg-12':!showImg, 'mbr-col-lg-6': showImg}\">\n                <div class=\"form-wrap\" mbr-form=\"\">\n               <form class=\"mbr-form mbr-justify-content-center\" action=\"franklingothic14@gmail.com\" method=\"post\" name=\"Mobirise Form\" target=\"_top\" novalidate=\"\">\n                    <div submit-success=\"\">\n                      <template data-form-alert=\"\" type=\"amp-mustache\">Отлично, мы с вами свяжемся в ближайшее время</template>\n                    </div>\n                    <div submit-error=\"\">\n                      <template data-form-alert=\"\" type=\"amp-mustache\">Отлично, мы с вами свяжемся в ближайшее время</template>\n                    </div>\n                    <div class=\"fieldset\">\n                        <div data-for=\"form[data][0][1]\" class=\"split-row\">\n                            <input type=\"hidden\" name=\"form[data][0][0]\" value=\"Name\">\n                            <input type=\"text\" name=\"form[data][0][1]\" data-form-field=\"Name\" placeholder=\"Как к Вам обращаться\" required=\"\">\n                        </div>\n                        <div data-for=\"form[data][1][1]\" class=\"split-row\">\n                            <input type=\"hidden\" name=\"form[data][1][0]\" value=\"Last Name\">\n                            <input type=\"text\" name=\"form[data][1][1]\" data-form-field=\"Last Name\" placeholder=\"Ваш телефон\" required=\"\">\n                        </div>\n                        <div data-for=\"form[data][2][1]\" class=\"split-row\" hidden=\"hidden\">\n                            <input type=\"hidden\" name=\"form[data][2][0]\" value=\"Email\">\n                            <input type=\"email\" name=\"form[data][2][1]\" data-form-field=\"Email\" placeholder=\"Ваша почта\" required=\"\" hidden=\"hidden\">\n                        </div>\n                        <div class=\"area\" data-for=\"form[data][3][1]\">\n                            <input type=\"hidden\" name=\"form[data][3][0]\" value=\"Message\">\n                            <textarea name=\"form[data][3][1]\" rows=\"7\" data-form-field=\"Message\" placeholder=\"Ваш заказ\"></textarea>\n                        </div>\n                    </div>\n                    <div class=\"mbr-section-btn align-center\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a type=\"submit\" class=\"btn btn-form btn-primary\" data-app-placeholder=\"Type Text\">SEND FORM</a></div>\n                </form>\n            </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rkVTxdjW51",
-          "_anchor": "contacts6-3",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_anchor": "form1-b"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2019 Magic of nature",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-k"
         }
       ]
     }
