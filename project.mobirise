@@ -25,14 +25,15 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.6",
     "siteFonts": [],
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/ointment-128x128.png",
     "noImageResize": "",
     "siteUrl": "undefined",
     "google-analytics": "",
     "cookiesAlert": "",
     "gdpr": "",
     "uniqCompNum": 26,
-    "versionPublish": "4.9.6"
+    "versionPublish": "4.9.6",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
